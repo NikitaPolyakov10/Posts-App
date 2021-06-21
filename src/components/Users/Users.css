@@ -1,0 +1,20 @@
+.users {
+  margin: 0 auto;
+}
+.user {
+  font-size: 24px;
+  text-align: center;
+  padding: 5px;
+  border-bottom: 1px solid lightgray;
+}
+.users-container {
+  padding: 10px;
+}
+.dark {
+  background-color: #000;
+  color: #fff;
+}
+.light {
+  background-color: #fff;
+  color: #000;
+}

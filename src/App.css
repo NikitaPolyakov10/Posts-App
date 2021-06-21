@@ -1,0 +1,30 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+.header-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.link {
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #483b3b;
+  color: #fff;
+  transition: 0.2s ease-in;
+}
+.link:not(:last-child) {
+  margin-right: 10px;
+}
+.link:hover {
+  background-color: rgba(0, 0, 0, 0.517);
+}
+.selected {
+  background-color: #d82424;
+}

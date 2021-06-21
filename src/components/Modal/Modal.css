@@ -1,0 +1,68 @@
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.572);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+}
+.modal.active {
+  transform: scale(1);
+}
+.modal-content {
+  font-size: 17px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  height: 200px;
+  width: 400px;
+}
+.modal-author-name {
+  font-size: 24px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 12px;
+}
+.modal-author-address {
+  padding: 5px 0 0 0;
+}
+.modal-author-email {
+  padding: 5px 0 0 0;
+}
+.modal-author-phone {
+  padding: 5px 0 0 0;
+}
+.modal-author-company {
+  padding: 5px 0 0 0;
+}
+.modal-footer {
+  padding: 5px 0 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.modal-button {
+  display: block;
+  width: 100px;
+  height: 30px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.modal-button:hover {
+  box-shadow: 1px 1px 3px #393939b5;
+  background-color: rgba(0, 0, 0, 0.517);
+}
+
+.dark {
+  background-color: #000;
+  color: #fff;
+}
+.light {
+  background-color: #fff;
+  color: #000;
+}
